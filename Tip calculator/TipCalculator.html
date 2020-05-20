@@ -1,0 +1,59 @@
+<html>
+	<head><title>Tip Calulator</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body id="main-body">
+	<h1 class="start"></h1>
+			
+				
+<form class="tip-cal" action="">
+
+    <div>Tip Calculator<br><br>
+		<label for="bill">Enter your bill: $
+		<input id="bill-input" type= "number" name= "bill" placeholder = "$ Bill amount" >
+		</label>
+	</div><br>
+
+	<div>How much would you like to tip?<br>
+		<select id= "tip-percent">
+			<option value= ".05"> 5 &#37 Not great...but I want to tip something.</option>
+			<option value= ".10"> 10 &#37 Was ok...not the best not the worst.</option>
+			<option value= ".15"> 15 &#37 Was pretty good</option>
+			<option value= ".20"> 20 &#37 Excelent...above average!</option>
+			<option value= ".30"> 30 &#37 I'm rich. Take my money.</option>
+		</select>		
+
+		
+	</div>
+                    
+      Total after tip:  
+
+    <div id="new-total">$ </div>
+    <div><button type= "button" id="btn";>Calculate</button></div>
+
+</form> 
+
+
+<div><footer id="main-footer">Copyright &copy; 2020 CodeBroker</div>
+</footer>
+
+<script type="text/javascript">
+bill = document.getElementById('bill-input');
+percent = document.getElementById('tip-percent');
+
+document.getElementById('btn').addEventListener("click", function() {
+    let result = 0;
+    let input = bill.value;
+    let per = percent.value;
+    {
+      result = input * per;
+      r = result.toFixed(2)
+    }
+    document.getElementById("new-total").innerHTML = '$' + r;
+});
+
+</script>
+</body>
+</html>

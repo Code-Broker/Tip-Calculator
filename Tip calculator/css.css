@@ -1,0 +1,77 @@
+#main-body {
+	text-align: center;
+	font-family: Roboto;
+	padding: 5px 50px;
+	overflow: auto;
+	color: black;
+	background-color: #ebecf0;
+	font-weight: 600;
+    margin: 50px;
+    min-width: 500px;
+}
+
+.start {
+	margin-bottom: 50px;
+}
+
+#btn {
+	background-color: black;
+	border-color: green;
+	border-radius: 10px;
+	color: white;
+	font-weight: 800;
+	margin-top: 20px;
+	padding: 15px;
+	font-family: Roboto;
+	width: 200px;
+	font-size: 20px;
+}
+
+#btn:hover {
+	background-color: green;
+	border-color: black;
+	border-radius: 10px;
+	font-family: Roboto;
+}
+
+#main-footer {
+	padding: 50px;
+	background-color: grey;
+	margin-top: 300px;
+	margin-bottom: 0px;
+	font-family: Roboto;
+} 
+
+
+#bill-input {
+	margin: 20px;
+	margin-left: 5px;
+	height: 30px;
+	font-size: 15px;
+}
+
+#new-total {
+	margin: 20px;
+}
+
+.tip-cal {
+	padding: 20px;
+	border-radius: 65px;
+	border-style: solid;
+	border-color: black;
+	background-color: grey;
+	font-weight: 800;
+	font-family: Roboto;
+	font-size: 30px;
+}
+
+#tip-percent{
+	margin: 25px;
+	width: auto;
+	height: 30px;
+	border-radius: 10px;
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 20px;
+
+}
